@@ -1,4 +1,5 @@
-# EE629_final_project
+# EE629 Final Project
+# OrbitDB Tested at Scale with MQTT Functionality Added
 Test OrbitDB at Scale:
 
 Modify benchmark-replication and benchmark-replication-sender to work at scale
@@ -26,6 +27,7 @@ Add the following addresses in both programs **but make sure ports are different
       "/ip6/::/tcp/4005"
     ]
   },
+
 Enable relay hop on the receiver program
 
 **Can use docker to deploy hundreds of receiver nodes on AWS or similar
