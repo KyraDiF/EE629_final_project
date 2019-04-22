@@ -93,7 +93,7 @@ let metrics1 = {
 const database = 'benchmark-replication'
 const updateCount = 8000
 var queryArray = []
-const minReceiverNodes = 10;
+const minReceiverNodes = 2;
 let peerCount = 0;
 
 //**************
