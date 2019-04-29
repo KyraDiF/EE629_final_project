@@ -27,6 +27,7 @@ To run code:
 - Start sender.js on one devices
 - Wait for the prompt "Waiting for peers to connect"
 - Then start receiver.js in separate command prompts/separate devices
+- Use receiver and receiver-2 if you want to run two instances of the receiver on the same device
 - Modify the sender.js file for the number of desired receiving peers. Code as-is in this repository is set for two receivers
 - If you are having trouble understanding this code/concept, start with the Getting Started code in this repo or on the OrbitDB github
 - You will probably run into many errors that you will have to look up as OrbitDB is still under development
